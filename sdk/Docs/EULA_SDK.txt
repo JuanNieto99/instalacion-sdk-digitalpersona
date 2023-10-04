@@ -1,0 +1,102 @@
+END USER LICENSE AGREEMENT
+Software License. Cross Match Technologies, Inc., and its affiliates, 
+including but not limited to DigitalPersona, Inc. (collectively, 
+"Crossmatch") hereby grants to End User a non-exclusive, 
+non-transferable, revocable license to use the Software programs and 
+associated documentation.  Each licensed copy of the Software may be 
+used only at one location, and on one End User controlled or owned 
+computer or Crossmatch device which will meet Crossmatch's 
+specifications for use with the Software. End User may terminate this 
+EULA at any time.  This EULA will terminate automatically upon breach 
+of any of the provisions of this EULA. Upon termination or expiration 
+of this EULA, all rights to use the Software will cease, and End User 
+shall promptly destroy the original and all copies of the Software in 
+End User's possession or under End User control.
+Unauthorized Use of the Software. End User shall not, and shall not 
+allow any third party to, (i) alter, modify or adapt the Software, 
+including but not limited to translating, decompiling, disassembling, 
+reverse engineering or creating derivative works; (ii) copy the 
+Software (except that End User may make a reasonable number of  copies 
+of the Software, for inactive back-up and archival purposes and each 
+such copy will shall contain any copyright notices); or (iii) remove 
+any copyright notice; or (iv) sublicense, assign or transfer whether 
+through a network, service bureau, lease, loan, or otherwise, the 
+Software or its documentation, or any derivative work or copies 
+thereof, in whole or in part.
+Warranties. For a period of ninety (90) days after initial delivery of 
+the Software (the "Software Warranty Period"), Crossmatch warrants that 
+the Software, when used as permitted under this Agreement, will operate 
+substantially as described in the Documentation. Crossmatch will, as 
+its sole and exclusive obligation and Company's sole and exclusive 
+remedy for any breach of this warranty, use commercially reasonable 
+efforts to remedy any reproducible error in the Software reported to 
+Crossmatch by Company in writing during the Software Warranty Period, 
+or, if such error is material and Crossmatch determines that it is 
+unable to remedy the error, Crossmatch will refund to Company all 
+License Fees paid by Company, in which case this Agreement will 
+immediately terminate. EXCEPT FOR THE LIMITED WARRANTIES EXPRESSLY 
+STATED HEREIN, THE SOFTWARE IS PROVIDED "AS IS", AND CROSSMATCH HEREBY 
+EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES OF ANY KIND OR NATURE, 
+WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION THE 
+IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND 
+FITNESS FOR A PARTICULAR PURPOSE. CROSSMATCH DOES NOT WARRANT OR 
+REPRESENT THAT THE SOFTWARE OR DOCUMENTATION WILL BE FREE FROM BUGS OR 
+THAT THEIR USE WILL BE UNINTERRUPTED OR ERROR-FREE, OR MAKE ANY OTHER 
+REPRESENTATIONS REGARDING THE USE, OR THE RESULTS OF THE USE, OF THE 
+SOFTWARE OR DOCUMENTATION IN TERMS OF CORRECTNESS, ACCURACY, 
+RELIABILITY, OR OTHERWISE. 
+Limitation of Liability. IN NO EVENT SHALL CROSSMATCH BE LIABLE FOR ANY 
+CONSEQUENTIAL, INDIRECT, INCIDENTAL, PUNITIVE, OR SPECIAL DAMAGES 
+WHATSOEVER (INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF BUSINESS 
+PROFITS, BUSINESS INTERRUPTION, OR LOSS OF BUSINESS INFORMATION) 
+ARISING OUT OF THE USE OF OR INABILITY TO USE ANY OF THE CROSSMATCH 
+PRODUCTS OR SERVICES, EVEN IF CROSSMATCH HAS BEEN ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGES.  FURTHER, THE ENTIRE LIABILITY OF 
+CROSSMATCH FOR ANY CLAIM OR CAUSE OF ACTION ARISING HEREUNDER (WHETHER 
+IN CONTRACT, TORT, OR OTHERWISE) SHALL NOT EXCEED THE PURCHASE PRICE 
+PAID FOR THE SOFTWARE THAT IS THE SUBJECT OF SUCH CLAIM OR CAUSE OF 
+ACTION. 
+Intellectual Property and Use Limitations. The license of the Software 
+to End User does not convey to End User any intellectual property 
+rights in the Software, including but not limited to any copyright, 
+patent or trademark rights. Further, the sale of the Products confers 
+on End User no license, express or implied, by estoppel or otherwise, 
+under any patents of Crossmatch or others covering or relating to any 
+other product or invention or any combination, machine, or process in 
+which such Product might be used.
+Third Party Software. The Software may contain third party software 
+programs ("Third Party Programs") including programs that are available 
+under either their own license, or open source or free software license 
+(each a "Third Party License").  Third Party Licenses are typically 
+found in a Readme file or the Third Party License file in the 
+Software.  This EULA does not alter any rights or obligations End User 
+may have under Third Party Licenses. Third Party Programs are provided 
+"AS IS" and notwithstanding anything to the contrary in their 
+respective Third Party Licenses, the Disclaimer of Warranties and 
+Limitation of Liabilities provisions shall apply to Third Party Programs.
+Compliance with Laws. End User shall comply with all applicable laws 
+and regulations.  End User will not directly or indirectly export or 
+re-export any Software or "technical data" furnished to End User under 
+this Agreement without obtaining appropriate authorizations from the 
+U.S. Department of Commerce or other U.S. government agency and will 
+otherwise comply with all U.S. export control laws applicable thereto.
+Audit Rights.  End User agrees that from time to time, but no more 
+frequently than once per year, and upon at least ten days' prior 
+written notice, Crossmatch has the right to audit the use of the 
+Software for compliance with the terms of this EULA.
+Governing Law. This agreement shall be governed by the law of the State 
+of Florida without reference to its conflict of laws provisions.  The 
+End User and Crossmatch consent and agree to the jurisdiction and venue 
+of the state and federal courts located in Palm Beach County, Florida, 
+USA.
+U.S. GOVERNMENT RESTRICTED RIGHTS LEGEND.  The Software and any 
+accompanying materials are provided with Restricted Rights.  Use, 
+duplication, or disclosure by the U.S. Government and agencies thereof 
+is subject to restrictions set forth herein and in subparagraphs (c)(1) 
+and (2) of 48 CFR  52.227-19, Commercial Computer Software- Restricted 
+Rights, as applicable (or, as applicable, similar regulatory 
+restrictions on Rights in Technical Data and Computer Software, e.g., 
+DOD FAR Supplement 252.227-7013 (c)(1)(ii)). Manufacturer is Cross 
+Match Technologies, Inc., 3950 RCA Blvd, Suite 5001, Palm Beach 
+Gardens, FL 33410.
+
