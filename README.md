@@ -20,3 +20,10 @@ si no te deja pegar debes darles permiso a la carpeta rules.d, vamos dentro de l
 para las pruebas de java debe instalar java e ir a si desea usarlo con ubuntu 22 usar la version 17 de java
 
 ir a los ejemplos en "opt/crossmatch/urusdk-linux/linux/samples/bin/java" y ejecutar "sudo ./run_x64.sh"
+
+---------------------------------------------------------------------------------------
+
+para ejecutar el sdk existe la carpeta finger la cual creara un miniserver en el puerto 5050 el cual detectara el dispositivo biometrico y retronara la imagen capturada en base 64
+
+se ejecuta con el comando "make" para compilar 
+el comando "./finger" para correr el servidor
