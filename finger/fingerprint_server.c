@@ -20,10 +20,11 @@ int request_handler(void *cls, struct MHD_Connection *connection,
                     const char *url, const char *method,
                     const char *version, const char *upload_data,
                     size_t *upload_data_size, void **con_cls) {
-    
+    sleep(1);
     struct MHD_Response *response;
 
     if (strcmp(url, "/") == 0) {
+         sleep(1);
         // Inicialización del lector de huellas y variables
         int result = dpfpdd_init();
         DPFPDD_DEV hReader = NULL;
@@ -82,10 +83,50 @@ int request_handler(void *cls, struct MHD_Connection *connection,
                                                         (void *) "{\"message\": \"Huellero no conectado\", \"type\": \"false\"} ",
                                                         MHD_RESPMEM_MUST_COPY);
 
-            result = dpfpdd_close(hReader);
-            hReader = NULL;
-           
-            dpfpdd_exit(); 
+          // Selección y apertura del lector de huellas
+            hReader = SelectAndOpenReader(szReader, sizeof(szReader),&dpi);
+
+            unsigned char* pFeatures1 = NULL;
+            unsigned int nFeatures1Size = 0;
+            unsigned char* pFeatures2 = NULL;
+            unsigned int nFeatures2Size = 0;
+
+            int bStop = 0;
+            char* base64Data = CaptureFinger("any finger", hReader, dpi,DPFJ_FMD_ISO_19794_2_2005, &pFeatures1);
+            char* estado = "false";
+       
+            if(strlen(base64Data) > 30  ){
+                estado = "true"; 
+
+                const char* input_file_name = "fingerprint.bmp";
+                        
+                size_t input_length;
+                unsigned char* input_content = read_file(input_file_name, &input_length);
+
+                size_t encoded_length;
+                char* encoded_content = base64_encode(input_content, input_length, &encoded_length);
+
+                size_t legth = strlen(encoded_content);
+                char buffer[legth];
+
+                sprintf(buffer, "{\"message\": \"%s\", \"type\": \"%s\"}", encoded_content , estado);
+                response = MHD_create_response_from_buffer(strlen(buffer),
+                                                (void *)buffer,
+                                                MHD_RESPMEM_MUST_COPY);
+            } else {
+                char buffer[512]; 
+                sprintf(buffer, "{\"message\": \"%s\", \"type\": \"%s\"}", base64Data , estado);
+                response = MHD_create_response_from_buffer(strlen(buffer),
+                                                (void *)buffer,
+                                                MHD_RESPMEM_MUST_COPY);
+            }
+              
+            if(NULL != hReader){
+                result = dpfpdd_close(hReader);
+                hReader = NULL;
+            } 
+
+            dpfpdd_exit();  
         } else {
             // Selección y apertura del lector de huellas
             hReader = SelectAndOpenReader(szReader, sizeof(szReader),&dpi);
