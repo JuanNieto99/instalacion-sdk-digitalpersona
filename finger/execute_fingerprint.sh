@@ -1,4 +1,4 @@
-sudo cd /opt/Crossmatch/urusdk-linux/Linux/Samples/finger
+cd /opt/Crossmatch/urusdk-linux/Linux/Samples/finger
 sudo make
 sudo ./finger 
 
