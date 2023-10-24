@@ -1,6 +1,6 @@
 cd /opt/Crossmatch/urusdk-linux/Linux/Samples/finger
-sudo make
-sudo ./finger 
+make
+./finger 
 
 #update-rc.d execute_fingerprint.sh defaults 80
 #limipiar codigo
