@@ -16,7 +16,7 @@ else
 	LDFLAGS = -lpthread -lm -lc -ldl $(CFLAGS) -L$(LIB_OUT_DIR) -ldpfpdd -ldpfj
 endif
 
-LDFLAGS += -lmicrohttpd  # Añade esta línea para enlazar con libmicrohttpd
+LDFLAGS += -lmicrohttpd  # Añade esta línea para enlazar con libmicrohttpd 
 
 OBJS = fingerprint_server.o fingerprint_capture.o fingerprint_selection.o
 
