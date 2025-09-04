@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Fingerprint Scanner
+Exec=/opt/Crossmatch/urusdk-linux/Linux/Samples/finger/execute_fingerprint.sh
+Type=Application
+Terminal=true
+Icon=system-run  # Usa un ícono genérico o especifica la ruta a un ícono personalizado
